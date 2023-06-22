@@ -2,45 +2,69 @@
 <html>
 <head>
   <style> 
-    h1 {font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; text-align: center;}
-    ul {
-        list-style-type:none;
-        list-style-type: none;
-            margin: 50px;
-            padding: 50px;
-            overflow: hidden;
-            background-color:beige
-    
-    }
-    
-          
-          li {
-            float: right; 
-          }
-          
-          li a {
-            display: block;
-            color:cornflowerblue;
-            text-align:center;
-            padding: 60px;
-            overflow: 56px;
-            text-decoration: none;
-          }
-          
-          li a:hover {
-            background:white
-          }
-          
-          img {display:block; margin-left: auto;margin-left:auto;}
-          
-          img {display: block;margin-left: auto;margin-left:auto;}
-          
-          body{background-color: #d1ebd8}
-    </style>
+    body{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .navbar {
+    overflow:hidden;
+    background-color: beige;
+  }
+  .navbar a {
+    float:left;
+    font-size: 16px;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .dropdown {
+    float:left;
+    overflow: hidden;
+  }
+  .dropdown .dropbtn {
+  font-size: 16px;
+  border:none;
+  outline: none;
+  color:white;
+  padding: 14px 16px;
+  background-color: bisque;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin:0;
+  }
 
+  .navbar a:hover, .dropdown:hover
+  .dropbtn {
+    background-color:cadetblue;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:azure;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px
+    rgba (0,0,0, 0.2); 
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    float: none;
+    color:grey;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align:left;
+  }
+  .dropdown-content a:hover {
+    background-color:darksalmon;
+  }
+  .dropdown:hover .dropdown-content {
+display: block;
+  }
+</style>
 </head>
 <body>
-  <div class="navbar"> 
+
+<div class="navbar"> 
 <a href="AccomodationOptions.html"> Accomodation</a>
 <a href="Restaurants.html"> Restaurants </a>
 <div class="dropdown"> 
@@ -56,11 +80,10 @@
 </div>
 </div>
 
+<h3> Explore the accomodation avaliable in Paris, Spain, Venice and Mykonos</h3>
+<p> Hover over the Dropdown link to view the hotels and explore different options available.</p>
 </body>
-
-<img src="Europe.png"height= "900" width="2001"> 
-
-
-
 </html>
+
+<img src="Europe.png"height= "900" width="2001">
  
