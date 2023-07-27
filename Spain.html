@@ -1,9 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<style> body {background-color:#CAF6FF;} </style> 
-<h1 Spain Accommodation> </h1>
+<style> 
+body{font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; background-color: #CAF6FF;
+}
+        
+.navbar {
+overflow:hidden;
+background-color:lightblue;
+}
+        
+.navbar a {
+float:left;
+font-size: 20px;
+color:black;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+        }
+        
+.dropdown {
+float:left;
+overflow: hidden;
+        
+ }
+.dropdown .dropbtn {
+font-size: 16px;
+border:none;
+outline: none;
+color:white;
+padding: 14px 16px;
+background-color:lightslategrey;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+margin:0;
+} 
+.navbar a:hover, .dropdown:hover
+.dropbtn {
+background-color:lightslategray;
+}
+        
+.dropdown-content {
+display: none;
+position: absolute;
+background-color:azure;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px
+rgba (0,0,0, 0.2); 
+z-index: 1;
+}
+        
+.dropdown-content a {
+float: none;
+color:grey;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+text-align:left;
+}
+        
+.dropdown-content a:hover {
+background-color:lightgray;
+}
+        
+.dropdown:hover .dropdown-content {display:block ;}
+</style>
+</head>
+<body>
+        
+<div class="navbar"> 
+<a href="Restaurants.html"> Restaurants </a>
+<a href ="Flights.html"> Flights </a>
+<a href="Attractions.html"> Attractions </a>
+        
+        
+<div class="dropdown"> 
+<button class="dropbtn"> Accommodation Options
+<i class="fa fa-caret-down"></i>
+</button>
+        
+        
+<div class="dropdown-content"> 
+<a href="London.html"> London </a>
+<a href="Spain.html"> Spain </a>
+<a href="Paris.html"> Paris </a>
+<a href="Mykonos.html"> Mykonos</a>
+        
+</div>
+</div>
+</div>
+</body>
+</html>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<img src="SpainAccommodation2.jpg" alt="Option2" style width="60%;"> 
+<img src="SpainFont1.jpg" alt="Font1" style width="60%;"> 
 <img src="SpainHotel2.png" alt="Option3" style width="60%;"> 
